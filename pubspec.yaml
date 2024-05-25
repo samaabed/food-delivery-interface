@@ -1,0 +1,40 @@
+name: food_delivery
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #this package is added by default, it allows you to use cupertino widgets
+  cupertino_icons: ^1.0.2
+
+  persistent_bottom_nav_bar_v2: ^4.2.8
+  #package name               package version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true 
+  assets:
+    - assets/images/
+    
+
+
+
+
+
+
